@@ -3,7 +3,7 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Robojini/Tuturial_UI_Library/main/UI_Template_1"))()
 local Window = Library.CreateLib("Erfy | by silphy hacker`s ~ by zen", "RJTheme6")
 local Tab = Window:NewTab("Visual")
-local Section = Tab:NewSection("thx for using!")
+local Section = Tab:NewSection("м ебат ну отзыв оставить не забудь!")
 
 Section:NewButton("ESP", "Подсвечивает игроков", function()
 --[[
