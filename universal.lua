@@ -439,6 +439,8 @@ end)
 -- Секция
 local Tab = Window:NewTab("Rage")
 
+local Section = Tab:NewSection("Функции для rage игры")
+
 -- Кнопка
 Section:NewButton("AimBot", "По умолчанию TeamCheck и Wall Check", function()
     -- Copyright https://WeAreDevs.net 2019
@@ -514,7 +516,7 @@ end)
 -- Секция
 local Tab = Window:NewTab("Player")
 
-local Section = Tab:NewSection("thx")
+local Section = Tab:NewSection("Игрок")
 
 -- Слайдер
 Section:NewSlider("WalkSpeed", "Изменяет скорость персонажа.", 500, 1, function(s)
@@ -544,6 +546,8 @@ end)
 
 -- Секция
 local Tab = Window:NewTab("Other")
+
+local Section = Tab:NewSection("Прочие Функции")
 
 -- Кнопка
 Section:NewButton("InfiniteYield", "Admin Script", function()
