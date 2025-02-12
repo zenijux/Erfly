@@ -438,7 +438,7 @@ end)
 
 -- Кнопка
 Section:NewButton("WalkSpeed", "Увеличивает скорость игрока. Сбрасывается при шифте.", function()
-    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 45
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 25
 
 end)
 
