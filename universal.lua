@@ -514,6 +514,8 @@ end)
 -- Секция
 local Tab = Window:NewTab("Player")
 
+local Section = Tab:NewSection("thx")
+
 -- Слайдер
 Section:NewSlider("WalkSpeed", "Изменяет скорость персонажа.", 500, 1, function(s)
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
