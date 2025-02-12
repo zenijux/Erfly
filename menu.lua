@@ -435,3 +435,28 @@ if not _G.WRDESPLoaded then
     _G.WRDESPLoaded = true
 end
 end)
+
+-- Кнопка
+Section:NewButton("WalkSpeed", "Увеличивает скорость игрока. Сбрасывается при шифте.", function()
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 45
+
+end)
+
+-- Кнопка
+Section:NewButton("InfiniteYield", "Admin Script", function()
+    loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Infinite%20Yield.txt"))()
+    
+end)
+
+-- Кнопка
+Section:NewButton("Click Teleport", "Left ctrl + click", function()
+    loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Click%20Teleport.txt"))()
+    
+end)
+
+
+-- Кнопка
+Section:NewButton("Invisible", "Делает вашего персонажа прозрачным. Советую убрать волосы и головные уборы.", function()
+    loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Invisible%20Character.txt"))()
+    
+end)
