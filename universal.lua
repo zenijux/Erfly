@@ -524,6 +524,15 @@ Section:NewSlider("JumpPower", "Изменяет высоту прыжка пе�
     game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
 end)
 
+-- Слайдер
+Section:NewSlider("MaxHealth", "Изменяет максимальное здоровье персонажа.", 5000, 1, function(s)
+    game.Players.LocalPlayer.Character.Humanoid.MaxHealth = s
+end)
+
+-- Кнопка
+Section:NewButton("Health", "Восстанавливает здоровье вашего персонажа.", function()
+    game.Players.LocalPlayer.Character.Humanoid.MaxHealth = 5000
+end)
 
 -- Кнопка
 Section:NewButton("Invisible", "Делает персонажа прозрачным. Уберите головные уборы.", function()
