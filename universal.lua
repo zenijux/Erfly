@@ -438,7 +438,6 @@ end)
 
 -- Секция
 local Tab = Window:NewTab("Rage")
-
 local Section = Tab:NewSection("Функции для rage игры")
 
 -- Кнопка
@@ -515,29 +514,23 @@ end)
 
 -- Секция
 local Tab = Window:NewTab("Player")
-
 local Section = Tab:NewSection("Игрок")
-
 -- Слайдер
 Section:NewSlider("WalkSpeed", "Изменяет скорость персонажа.", 500, 1, function(s)
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
 end)
-
 -- Слайдер
 Section:NewSlider("JumpPower", "Изменяет высоту прыжка персонажа.", 500, 1, function(s)
     game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
 end)
-
 -- Слайдер
 Section:NewSlider("MaxHealth", "Изменяет максимальное здоровье персонажа.", 5000, 1, function(s)
     game.Players.LocalPlayer.Character.Humanoid.MaxHealth = s
 end)
-
 -- Кнопка
 Section:NewButton("Health", "Восстанавливает здоровье вашего персонажа.", function()
     game.Players.LocalPlayer.Character.Humanoid.MaxHealth = 5000
 end)
-
 -- Кнопка
 Section:NewButton("Invisible", "Делает персонажа прозрачным. Уберите головные уборы.", function()
     loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Invisible%20Character.txt"))()
@@ -546,15 +539,12 @@ end)
 
 -- Секция
 local Tab = Window:NewTab("Other")
-
 local Section = Tab:NewSection("Прочие Функции")
-
 -- Кнопка
 Section:NewButton("InfiniteYield", "Admin Script", function()
     loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Infinite%20Yield.txt"))()
     
 end)
-
 -- Кнопка
 Section:NewButton("Click Teleport", "Left ctrl + click", function()
     loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Click%20Teleport.txt"))()
