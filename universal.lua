@@ -1,9 +1,3 @@
---f9
-
-for i = 1 do
-    print ("Atlanta injected!")
-end
-
 --Menu
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Robojini/Tuturial_UI_Library/main/UI_Template_1"))()
