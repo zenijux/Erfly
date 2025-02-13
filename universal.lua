@@ -2,7 +2,7 @@
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Robojini/Tuturial_UI_Library/main/UI_Template_1"))()
 local Window = Library.CreateLib("Atlanta | by silphy hacker`s ~ by zen", "RJTheme6")
-local Tab = Window:NewTab("👁 Visual")
+local Tab = Window:NewTab("Visual")
 local Section = Tab:NewSection("thx for using!")
 
 Section:NewButton("ESP", "Подсвечивает игроков", function()
