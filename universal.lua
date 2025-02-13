@@ -6,7 +6,7 @@ print("Thx for using!")
 --Menu
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Robojini/Tuturial_UI_Library/main/UI_Template_1"))()
-local Window = Library.CreateLib("Atlanta v3 | by silphy hacker`s ~ by zen", "RJTheme6")
+local Window = Library.CreateLib("Atlanta | by silphy hacker`s ~ by zen", "RJTheme6")
 local Tab = Window:NewTab("Visual")
 local Section = Tab:NewSection("thx for using!")
 
@@ -646,5 +646,17 @@ end)
 -- Кнопка
 Section:NewButton("Click Teleport", "Left ctrl + click", function()
     loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Click%20Teleport.txt"))()
+    
+end)
+
+-- Кнопка
+Section:NewButton("JerkOff", "Выдаёт Jerkoff", function()
+    loadstring(game:HttpGet("https://pastefy.app/wa3v2Vgm/raw"))("Spider Script")
+    
+end)
+
+-- Кнопка
+Section:NewButton("Energize Gui", "Gui с анимациями. Нужен R6", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/0MLPL32f'))()
     
 end)
