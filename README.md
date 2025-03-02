@@ -1,5 +1,5 @@
 Atlanta Roblox Script🔮
-this script in alpha
+Hey!!
 
 don't try to find the source code it's confusing
 
